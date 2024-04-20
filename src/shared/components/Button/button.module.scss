@@ -1,0 +1,30 @@
+.btn {
+	display: inline-block;
+	min-width: 100px;
+	background-color: var(--accent-color);
+	color: var(--primary-white-color);
+	border: 1px solid transparent;
+	padding: 8px 12px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+
+	transition:
+		color var(--transition-duration-function),
+		background-color var(--transition-duration-function),
+		border-color var(--transition-duration-function);
+
+	&:hover {
+		background: var(--secondary-accent-color);
+		border-color: transparent;
+	}
+
+	&:focus {
+		border-color: var(--accent-color);
+	}
+
+	&:disabled {
+		background-color: var(--secondary-light-color);
+		cursor: wait;
+	}
+}

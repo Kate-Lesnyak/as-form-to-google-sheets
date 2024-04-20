@@ -1,0 +1,11 @@
+.loader {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: var(--overlay-background-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

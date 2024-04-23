@@ -1,10 +1,12 @@
 const initialState = {
 	lastName: '',
 	name: '',
+    surname: '',
+    code: '',
 	email: '',
     phone: '',
     date: '',
-    hour: '',
+    time: '',
 };
 
 export default initialState;
